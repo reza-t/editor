@@ -1,5 +1,5 @@
 {
-  "name": "r-editor",
+  "name": "r-editor-vue",
   "version": "0.0.1",
   "description": "Editor for Vue applications",
   "main": "./dist/index.js",
