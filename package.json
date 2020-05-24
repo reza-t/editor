@@ -1,0 +1,35 @@
+{
+  "name": "r-editor",
+  "version": "0.0.1",
+  "description": "Editor for Vue applications",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve ./src/REditor.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reza-t/vue-r-editor.git"
+  },
+  "keywords": [
+    "editor",
+    "vue",
+    "description",
+    "js",
+    "javascript"
+  ],
+  "author": "Mohammadreza Taleghani Esfahani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reza-t/vue-r-editor/issues"
+  },
+  "homepage": "https://github.com/reza-t/vue-r-editor#readme",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^4.10.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
