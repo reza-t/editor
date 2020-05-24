@@ -5,7 +5,7 @@
   "description": "Editor for Vue applications",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "vue serve ./src/REditor.vue",
+    "dev": "vue serve ./src/Editor.vue",
     "build": "bili --name index --plugin vue --vue.css false"
   },
   "repository": {
@@ -32,5 +32,8 @@
     "bili": "^4.10.0",
     "rollup-plugin-vue": "^5.1.9",
     "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "marked": "^1.1.0"
   }
 }
