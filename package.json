@@ -1,5 +1,6 @@
 {
-  "name": "r-editor-vue",
+  "private": false,
+  "name": "@mrte/vue-editor",
   "version": "0.0.1",
   "description": "Editor for Vue applications",
   "main": "./dist/index.js",
@@ -9,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reza-t/vue-r-editor.git"
+    "url": "git+https://github.com/reza-t/vue-editor.git"
   },
   "keywords": [
     "editor",
@@ -21,9 +22,9 @@
   "author": "Mohammadreza Taleghani Esfahani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reza-t/vue-r-editor/issues"
+    "url": "https://github.com/reza-t/vue-editor/issues"
   },
-  "homepage": "https://github.com/reza-t/vue-r-editor#readme",
+  "homepage": "https://github.com/reza-t/vue-editor#readme",
   "files": [
     "dist/*"
   ],
