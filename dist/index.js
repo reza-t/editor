@@ -1,5 +1,5 @@
 /*!
- * r-editor v0.0.1
+ * @mrte/vue-editor v0.0.2
  * (c) Mohammadreza Taleghani Esfahani
  * Released under the MIT License.
  */
@@ -12,7 +12,7 @@
 //
 //
 var script = {
-  name: "REditor"
+  name: "Editor"
 };
 
 function normalizeComponent(template, style, script, scopeId, isFunctionalTemplate, moduleIdentifier /* server only */, shadowMode, createInjector, createInjectorSSR, createInjectorShadow) {
@@ -132,7 +132,7 @@ var index = {
   install: function install(Vue, options) {
     // Let's register our component globally
     // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("r-editor", __vue_component__);
+    Vue.component("editor", __vue_component__);
   }
 };
 

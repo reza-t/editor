@@ -10,4 +10,3 @@ Run the development
 ```
 $ npm run dev
 ```
-
